@@ -1,13 +1,38 @@
-# Sample Hardhat Project
+# Brainwave Matrix Intern Task – Voting DApp
 
-This project demonstrates a basic Hardhat use case. It comes with a sample contract, a test for that contract, and a Hardhat Ignition module that deploys that contract.
+This project is a simple decentralized voting application (DApp) built using **Solidity**, **Hardhat**, and **JavaScript**. It allows users to vote for candidates on the Ethereum blockchain.
 
-Try running some of the following tasks:
+## 🔧 Technologies Used
 
-```shell
-npx hardhat help
-npx hardhat test
-REPORT_GAS=true npx hardhat test
-npx hardhat node
-npx hardhat ignition deploy ./ignition/modules/Lock.js
-```
+- Solidity (Smart Contract Language)
+- Hardhat (Development Framework)
+- Node.js
+- Ethers.js
+- JavaScript
+- MetaMask (for interacting with the contract)
+
+## 🚀 Features
+
+- Deploy a smart contract on the local Ethereum network
+- Add candidates dynamically
+- Cast votes for candidates
+- Read voting results from the blockchain
+
+## 📂 Project Structure
+
+Brainwave_task1/
+│
+├── contracts/ # Solidity Smart Contracts
+│ └── Voting.sol
+│
+├── scripts/ # Deployment & Interaction Scripts
+│ ├── deploy.js
+│ └── interact.js
+│
+├── frontend/ # (Optional) Frontend Components
+│ └── src/components/
+│
+├── test/ # Hardhat Tests
+│ └── Lock.js
+│
+└── hardhat.config.js # Hardhat Configuration
